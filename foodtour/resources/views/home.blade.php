@@ -37,6 +37,10 @@
           </li>
         </ul>
       </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-primary" type="button">Login</button>
+  <button class="btn btn-primary" type="button">Register</button>
+</div>
     </div>
   </nav>
   <!-- Navbar End -->
@@ -52,7 +56,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/assets/images/Lembang_ParkZoo.jpg" height="700" width="1550" alt="...">
+        <img src="/assets/images/KawahPutih.webp" height="700" width="1550" alt="...">
         <div class="carousel-caption d-none d-md-block" style="top: 30%;">
           <h5>Food and Tour</h5>
           <h1>Let's Discover Bandung</h1>
@@ -64,7 +68,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/SaungUdjo.jpg" height="700" width="1550" alt="...">
+        <img src="/assets/images/OrchidForrest.webp" height="700" width="1550" alt="...">
         <div class="carousel-caption d-none d-md-block" style="top: 30%;">
           <h5>Food and Tour</h5>
           <h1>Let's Discover Bandung</h1>
@@ -76,7 +80,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/dago-dreampark-bandung.jpg" height="700" width="1550" alt="...">
+        <img src="/assets/images/DusunBambu.webp" height="700" width="1550" alt="...">
         <div class="carousel-caption d-none d-md-block" style="top: 30%;">
           <h5>Food and Tour</h5>
           <h1>Let's Discover Bandung</h1>
@@ -98,65 +102,66 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <!--Carousel End-->
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-lg-6" style="min-height: 500px;">
-            <div class="position-relative h-100">
-              <img class="position-absolute w-100 h-100" src="/assets/images/ijjllwq1xqmfsm5vxorr.webp"
-                style="object-fit: cover;">
+  </div>
+  <!--Carousel End-->
+  <!-- About Start -->
+  <div class="container">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-6" style="min-height: 500px;">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100" src="/assets/images/RancaUpas.webp" style="object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-lg-6 pt-5 pb-lg-5">
+          <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+            <h5 class="text-dark text-uppercase" style="letter-spacing: 5px;">About Us</h5>
+            <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
+            <p>Keterangan FoodTour</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+  <br>
+  <!-- Feature Start -->
+  <div class="container">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-column">
+              <h5 class="">Competitive Pricing</h5>
+              <p class="m-0">Harga disini murah</p>
             </div>
           </div>
-          <div class="col-lg-6 pt-5 pb-lg-5">
-            <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-              <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h5>
-              <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-              <p>Keterangan FoodTour</p>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-column">
+              <h5 class="">Best Services</h5>
+              <p class="m-0">Pelayanan sangat baik</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-column">
+              <h5 class="">Best Place in Bandung</h5>
+              <p class="m-0">Tempat yang aman dan nyaman untuk dikunjungi</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- About End -->
-    <!-- Feature Start -->
-    <div class="container-fluid pb-5">
-      <div class="container pb-5">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="d-flex mb-4 mb-lg-0">
-              <div class="d-flex flex-column">
-                <h5 class="">Competitive Pricing</h5>
-                <p class="m-0">Harga disini murah</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="d-flex mb-4 mb-lg-0">
-              <div class="d-flex flex-column">
-                <h5 class="">Best Services</h5>
-                <p class="m-0">Pelayanan sangat baik</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="d-flex mb-4 mb-lg-0">
-              <div class="d-flex flex-column">
-                <h5 class="">Best Place in Bandung</h5>
-                <p class="m-0">Tempat yang aman dan nyaman untuk dikunjungi</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Feature End -->
-
-    <!--Packages Start-->
-    <div class="container">
-      <center><h1 class="heading">
-        <span>p</span>
+  </div>
+  <!-- Feature End -->
+  <!--Packages Start-->
+  <div class="container">
+    <center>
+      <h1 class="heading">
+        <span>P</span>
         <span>a</span>
         <span>c</span>
         <span>k</span>
@@ -164,70 +169,253 @@
         <span>g</span>
         <span>e</span>
         <span>s</span>
-      </h1></center><br>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="/assets/images/ParkZoo_1.jpeg" class="card-img-top" width="50" height="250" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lembang Park & Zoo</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-              <div class="price"> 50.000 <span>100.000</span> </div>
-              <a href="" class="btn btn-primary">See More</a>
+      </h1>
+    </center><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="/assets/images/ParkZoo.webp" class="card-img-top" width="50" height="250" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lembang Park & Zoo</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
             </div>
+            <div class="price"> 50.000 <span>100.000</span></div><br>
+            <center><a href="" class="btn btn-primary">Book Now</a></center>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="/assets/images/Tahura_1.jpg" class="card-img-top" width="50" height="250" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Taman Hutan Raya</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-              <div class="price"> 50.000 <span>100.000</span> </div>
-              <a href="" class="btn btn-primary">See More</a>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/images/TamanHutanRaya.webp" class="card-img-top" width="50" height="250" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Taman Hutan Raya</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
             </div>
+            <div class="price"> 50.000 <span>100.000</span></div><br>
+            <center><a href="" class="btn btn-primary">Book Now</a></center>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="/assets/images/dago-dreampark-bandung.jpg" class="card-img-top" width="50" height="250" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Dago Dreampark</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/images/DagoDreamPark.webp" class="card-img-top" width="50" height="250" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dago Dreampark</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"> 50.000 <span>100.000</span></div><br>
+            <center><a href="" class="btn btn-primary">Book Now</a></center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="/assets/images/TheGreatAsiaAfricaLembang.webp" class="card-img-top" width="50" height="250"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Great Asia Africa Lembang</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"> 50.000 <span>100.000</span></div><br>
+            <center><a href="" class="btn btn-primary">Book Now</a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/images/JendelaAlam.webp" class="card-img-top" width="50" height="250" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jendela Alam</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"> 50.000 <span>100.000</span></div><br>
+            <center><a href="" class="btn btn-primary">Book Now</a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/images/GrafikaCikole.webp" class="card-img-top" width="50" height="250" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Grafika Cikole</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"> 50.000 <span>100.000</span></div><br>
+            <center><a href="" class="btn btn-primary">Book Now</a></center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Packages End-->
+    <br>
+    <!--Service Start-->
+    <div class="container">
+      <center>
+        <h1 class="heading">
+          <span>S</span>
+          <span>e</span>
+          <span>r</span>
+          <span>v</span>
+          <span>i</span>
+          <span>c</span>
+          <span>e</span>
+        </h1>
+      </center><br>
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex mb-4 mb-lg-0">
+              <div class="d-flex flex-column">
+                <h5 class="">Makanan Khas Bandung</h5>
+                <p class="m-0">Kami menyediakan berbagai macam jenis makanan dan cemilan khas dari Bandung</p>
               </div>
-              <div class="price"> 50.000 <span>100.000</span> </div>
-              <a href="" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex mb-4 mb-lg-0">
+              <div class="d-flex flex-column">
+                <h5 class="">Keliling Kota Bandung</h5>
+                <p class="m-0">Kami menyediakan tiket untuk berbagai tempat wisata di Kota Bandung dengan harga
+                  terjangkau</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex mb-4 mb-lg-0">
+              <div class="d-flex flex-column">
+                <h5 class="">Pengiriman Cepat</h5>
+                <p class="m-0">Proses pengiriman makanan dilakukan dengan cepat dan tepat waktu</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--Packages End-->
+    <!--Service End-->
+    <!-- review div starts  -->
 
+    <div class="review">
 
-
-    <!---->
-    <!---->
+      <center>
+        <h1 class="heading">
+          <span>R</span>
+          <span>e</span>
+          <span>v</span>
+          <span>i</span>
+          <span>e</span>
+          <span>w</span>
+        </h1>
+      </center>
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic1.png" alt="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat
+                odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus
+                beatae, reprehenderit exercitationem!</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic2.png" alt="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat
+                odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus
+                beatae, reprehenderit exercitationem!</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic3.png" alt="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat
+                odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus
+                beatae, reprehenderit exercitationem!</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic4.png" alt="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat
+                odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus
+                beatae, reprehenderit exercitationem!</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- review div ends -->
     <!---->
     <!---->
     <!---->
