@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\ShowroomController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,22 +18,43 @@ use App\Http\Controllers\ShowroomController;
 //     return view('welcome');
 // });
 
-Route::get('/register', [UserController::class, 'index'])->name('register.get');
+// ==================== User Route ====================
+Route::get('/register', [UserController::class, 'regiser'])->name('register.get');
 Route::post('/register', [UserController::class, 'register']);
 Route::get('login', [UserController::class, 'login'])->name('login.get');
 Route::post('login', [UserController::class, 'loginUser'])->name('login.post');
 Route::get('logout', [UserController::class, 'logout'])->name('logout.get');
 route::post('/logout', [UserController::class, 'logoutUser']);
 
-// ==================== View Route ====================
+// ==================== Website Route ====================
 Route::get('/', function () {
-    return view('home');
+    return view('homeuser');
 });
 
 Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/service', function () {
+    return view('service');
+});
+
 Route::get('/register', function () {
     return view('register');
+});
+
+Route::get('/packages', function () {
+    return view('packagesuser');
+});
+
+Route::get('/park&zoo', function () {
+    return view('park&zoo');
+});
+
+Route::get('/book', function () {
+    return view('book');
 });

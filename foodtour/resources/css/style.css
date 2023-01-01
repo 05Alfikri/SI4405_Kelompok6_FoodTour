@@ -1,89 +1,50 @@
-.packages .box-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap:2rem;
+.surabi {
+letter-spacing: 0;
+line-height: normal;
+min-height: 34px;
+min-width: 100px;
+text-align: center;
+}
+.tahu-susu-bandung {
+letter-spacing: 0;
+line-height: normal;
+min-height: 34px;
+min-width: 301px;
+text-align: center;
+}
+.pisang-bollen-bandung {
+letter-spacing: 0;
+line-height: normal;
+min-height: 34px;
+min-width: 348px;
+text-align: center;
+}
+.navbar-link-mie-kocok {
+letter-spacing: 0;
+line-height: normal;
+min-height: 34px;
+min-width: 150px;
+text-align: center;
+}
+.navbar-link {
+letter-spacing: 0;
+line-height: normal;
+min-height: 34px;
+min-width: 123px;
+text-align: center;
+}
+.navbar-link-nasi-tutug-oncom {
+letter-spacing: 0;
+line-height: normal;
+min-height: 34px;
+min-width: 282px;
+text-align: center;
+}
+.navbar-link-lotek {
+    letter-spacing: 0;
+line-height: normal;
+min-height: 34px;
+min-width: 82px;
+text-align: center;
 }
 
-.packages .box-container .box{
-  flex:1 1 30rem;
-  border-radius: .5rem;
-  overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-}
-
-.packages .box-container .box img{
-  height: 25rem;
-  width:100%;
-  object-fit: cover;
-}
-
-.packages .box-container .box .content{
-  padding:2rem;
-}
-
-.packages .box-container .box .content h3{
-  font-size:2rem;
-  color:#747d8c;
-}
-
-.packages .box-container .box .content h3 i{
-  color:var(--orange);
-}
-
-.packages .box-container .box .content p{
-  font-size:1.7rem;
-  color:#666;
-  padding:1rem 0;
-}
-
-.packages .box-container .box .content .stars i{
-  font-size:1.7rem;
-  color:var(--orange);
-}
-
-.packages .box-container .box .content .price{
-  font-size: 2rem;
-  color:#747d8c;
-  padding-top: 1rem;
-}
-
-.packages .box-container .box .content .price span{
-  color:#666;
-  font-size: 1.5rem;
-  text-decoration: line-through;
-}
-
-.review .review-slider{
-  padding-bottom: 2rem;
-}
-
-.review .box{
-  padding:2rem;
-  text-align: center;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-  border-radius: .5rem;
-}
-
-.review .box img{
-  height:13rem;
-  width:13rem;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-.review .box h3{
-  color:#747d8c;
-  font-size: 2.5rem;
-}
-
-.review .box p{
-  color:#666;
-  font-size: 1.5rem;
-  padding:1rem 0;
-}
-
-.review .box .stars i{
-  color:var(--orange);
-  font-size: 1.7rem;
-}
