@@ -4,28 +4,30 @@
 
 <!--Packages Makanan-->
 <center>
-    <div class="container">
-        <h1>Makanan Khas Daerah</h1>
-        <h5>Cari resep disini</h5>
-        <br>
-        <h5>List resep makanan</h5>
-        <br>
-        <div class="text">
-            <a href="#" style="color: #915A3C; ">Mie Kocok</a>
-            <a href="#" style="color: #915A3C; ">Batagor Bandung</a>
-            <a href="#" style="color: #915A3C; ">Karedok</a>
-            <a href="#" style="color: #915A3C; ">Nasi Tutug Oncom</a>
-            <a href="#" style="color: #915A3C; ">Lotek</a>
-        </div>
-        <br>
-        <div class="text">
-            <a href="#" style="color: #915A3C; ">Colenak</a>
-            <a href="#" style="color: #915A3C; ">Tahu Susu Bandung</a>
-            <a href="#" style="color: #915A3C; ">Surabi</a>
-            <a href="#" style="color: #915A3C; ">Pisang Bollen Bandung</a>
-        </div>
+    <section id="packages">
+        <div class="container">
+            <h1>Makanan Khas Daerah</h1>
+            <h5>Cari resep disini</h5>
+            <br>
+            <h5>List resep makanan</h5>
+            <br>
+            <div class="text">
+                <a href="{{ 'miekocok' }}" style="color: #915A3C; ">Mie Kocok</a>
+                <a href="#" style="color: #915A3C; ">Batagor Bandung</a>
+                <a href="#" style="color: #915A3C; ">Karedok</a>
+                <a href="#" style="color: #915A3C; ">Nasi Tutug Oncom</a>
+                <a href="#" style="color: #915A3C; ">Lotek</a>
+            </div>
+            <br>
+            <div class="text">
+                <a href="#" style="color: #915A3C; ">Colenak</a>
+                <a href="#" style="color: #915A3C; ">Tahu Susu Bandung</a>
+                <a href="#" style="color: #915A3C; ">Surabi</a>
+                <a href="#" style="color: #915A3C; ">Pisang Bollen Bandung</a>
+            </div>
 </center>
 <br>
+<!--Packages Makanan End-->
 <!--Packages Wisata-->
 <br>
 <div class="container">
@@ -33,7 +35,8 @@
         <h1 class="heading">
             Tempat Wisata di Bandung
         </h1>
-    </center><br>
+    </center>
+    <br>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card">
@@ -47,7 +50,7 @@
                         <i class="text">(39 ulasan)</i>
                     </div>
                     <div class="price"> Rp 115.000 per orang</span></div><br>
-                    <center><a href="{{ 'park&zoo' }}" class="btn btn-primary">Look Now</a></center>
+                    <center><a href="{{ 'book' }}" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -63,7 +66,7 @@
                         <i class="text">(3 ulasan)</i>
                     </div>
                     <div class="price"> Rp 67.000 per orang</span></div><br>
-                    <center><a href="" class="btn btn-primary">Look Now</a></center>
+                    <center><a href="{{ 'hutanraya' }}" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -79,7 +82,7 @@
                         <i class="text">(7 ulasan)</i>
                     </div>
                     <div class="price"> Rp 32.000 per orang</span></div><br>
-                    <center><a href="" class="btn btn-primary">Look Now</a></center>
+                    <center><a href="" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -98,7 +101,7 @@
                         <i class="text">(9 ulasan)</i>
                     </div>
                     <div class="price"> Rp 44.000 per orang</span></div><br>
-                    <center><a href="" class="btn btn-primary">Look Now</a></center>
+                    <center><a href="" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -114,7 +117,7 @@
                         <i class="text">(15 ulasan)</i>
                     </div>
                     <div class="price"> Rp 122.000</span></div><br>
-                    <center><a href="" class="btn btn-primary">Look Now</a></center>
+                    <center><a href="" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -130,12 +133,13 @@
                         <i class="text">(22 ulasan)</i>
                     </div>
                     <div class="price"> Rp 125.000 per orang</span></div><br>
-                    <center><a href="" class="btn btn-primary">Look Now</a></center>
+                    <center><a href="" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
     </div>
     <br>
-    <!--Packages End-->
+    <!--Packages Wisata-->
+    </section>
 
     @endsection

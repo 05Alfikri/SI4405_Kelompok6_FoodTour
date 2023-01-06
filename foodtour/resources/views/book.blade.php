@@ -7,18 +7,18 @@
     <div class="container">
         <div class="book">
             <p class="login-text" style="font-size: 50px; font-weight: 700; text-align:center">Book Now</p>
-            <form action="" method="POST">
+            <form action="{{ url('pemesanan') }}" method="POST" enctype="multipart/form-data">
                 <div class="mb-3">
-                    <label class="form-label" for="destination">Where to</label>
-                    <input type="name" id="destination" class="form-control form-control-lg" name="destination">
+                    <label class="form-label" for="destination">Nama pemesan</label>
+                    <input type="nama" id="destination" class="form-control form-control-lg" value="{{ auth()->user()->name }}">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="people">How many people</label>
-                    <input type="name" id="people" class="form-control form-control-lg" name="people">
+                    <label class="form-label" for="people">No HP</label>
+                    <input type="number" id="number" class="form-control form-control-lg" nama="number">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="Arrivals">Arrivals</label>
-                    <input type="date" id="Arrivals" class="form-control form-control-lg" name="Arrivals">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" id="email" class="form-control form-control-lg" nama="email">
                 </div>
             </form>
         </div>

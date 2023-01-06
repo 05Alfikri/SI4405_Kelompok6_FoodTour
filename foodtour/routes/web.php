@@ -21,9 +21,9 @@ use App\Http\Controllers\UserController;
 // ==================== User Route ====================
 Route::get('/register', [UserController::class, 'regiser'])->name('register.get');
 Route::post('/register', [UserController::class, 'register']);
-Route::get('login', [UserController::class, 'login'])->name('login.get');
-Route::post('login', [UserController::class, 'loginUser'])->name('login.post');
-Route::get('logout', [UserController::class, 'logout'])->name('logout.get');
+Route::get('/login', [UserController::class, 'login'])->name('login.get');
+Route::post('/login', [UserController::class, 'loginUser'])->name('login.post');
+Route::get('/logout', [UserController::class, 'logout'])->name('logout.get');
 route::post('/logout', [UserController::class, 'logoutUser']);
 
 // ==================== Website Route ====================
@@ -32,7 +32,15 @@ Route::get('/', function () {
 });
 
 Route::get('/login', function () {
-    return view('login');
+    return view('loginUser');
+});
+
+Route::get('/loginUser', function () {
+    return view('loginUser');
+});
+
+Route::get('/loginAdmin', function () {
+    return view('loginAdmin');
 });
 
 Route::get('/about', function () {
@@ -48,13 +56,18 @@ Route::get('/register', function () {
 });
 
 Route::get('/packages', function () {
-    return view('packagesuser');
+    return view('packagesUser');
 });
 
 Route::get('/park&zoo', function () {
     return view('park&zoo');
 });
 
+Route::get('/miekocok', function () {
+    return view('miekocok');
+});
+
 Route::get('/book', function () {
     return view('book');
 });
+
