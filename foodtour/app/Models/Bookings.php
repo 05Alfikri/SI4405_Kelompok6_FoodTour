@@ -6,25 +6,25 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Showrooms extends Model
+class Bookings extends Model
 {
     use HasFactory;
 
-    protected $table = 'showrooms';
+    protected $table = 'bookings';
 
     protected $fillable = [
-        'id_user',
-        'name',
-        'brand',
+        'id',
         'purchase_date',
-        'description',
-        'image',
-        'status',
+        'name',
+        'no_hp',
+        'email',
+        'jumlah',
+        'total',
     ];
 
     // showrooms has relationship with users one to many
     public function user()
     {
-        return $this->belongsTo(User::class, 'id_user', 'id');
+        return $this->belongsTo(User::class, 'id');
     }
 }

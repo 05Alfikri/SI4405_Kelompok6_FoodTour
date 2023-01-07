@@ -46,7 +46,7 @@
 </div>
 <!--Carousel End-->
 
-  @include('layouts.footer')
+@include('layouts.footer')
 
 
-  @endsection
+@endsection

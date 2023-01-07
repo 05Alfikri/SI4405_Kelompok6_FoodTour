@@ -66,7 +66,7 @@
                         <i class="text">(3 ulasan)</i>
                     </div>
                     <div class="price"> Rp 67.000 per orang</span></div><br>
-                    <center><a href="{{ 'hutanraya' }}" class="btn btn-primary">Book Now</a></center>
+                    <center><a href="{{ 'book' }}" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                         <i class="text">(7 ulasan)</i>
                     </div>
                     <div class="price"> Rp 32.000 per orang</span></div><br>
-                    <center><a href="" class="btn btn-primary">Book Now</a></center>
+                    <center><a href="{{ 'book' }}" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                         <i class="text">(9 ulasan)</i>
                     </div>
                     <div class="price"> Rp 44.000 per orang</span></div><br>
-                    <center><a href="" class="btn btn-primary">Book Now</a></center>
+                    <center><a href="{{ 'book' }}" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
                         <i class="text">(15 ulasan)</i>
                     </div>
                     <div class="price"> Rp 122.000</span></div><br>
-                    <center><a href="" class="btn btn-primary">Book Now</a></center>
+                    <center><a href="{{ 'book' }}" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@
                         <i class="text">(22 ulasan)</i>
                     </div>
                     <div class="price"> Rp 125.000 per orang</span></div><br>
-                    <center><a href="" class="btn btn-primary">Book Now</a></center>
+                    <center><a href="{{ 'book' }}" class="btn btn-primary">Book Now</a></center>
                 </div>
             </div>
         </div>

@@ -26,6 +26,9 @@ Route::post('/login', [UserController::class, 'loginUser'])->name('login.post');
 Route::get('/logout', [UserController::class, 'logout'])->name('logout.get');
 route::post('/logout', [UserController::class, 'logoutUser']);
 
+Route::post('pemesanan', [BookingController::class, 'pemesanan'])->name('pemesanan.post');
+
+
 // ==================== Website Route ====================
 Route::get('/', function () {
     return view('homeuser');
@@ -59,15 +62,19 @@ Route::get('/packages', function () {
     return view('packagesUser');
 });
 
-Route::get('/park&zoo', function () {
-    return view('park&zoo');
-});
-
 Route::get('/miekocok', function () {
     return view('miekocok');
 });
 
 Route::get('/book', function () {
-    return view('book');
+    return view('pemesanan');
+});
+
+Route::get('/pemesanan', function () {
+    return view('pembayaran');
+});
+
+Route::get('/ticket', function () {
+    return view('ticket');
 });
 

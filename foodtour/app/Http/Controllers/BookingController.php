@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Bookings;
+use Illuminate\Support\Facades\Session;
 
-class BookController extends Controller
+class BookingController extends Controller
 {
     //
     /**
@@ -14,21 +16,22 @@ class BookController extends Controller
      * @return response
      * 
      */
-    public function addCar(Request $request)
+    public function book(Request $request)
     {
         $data = $request->all();
 
-        Booking::create([
-            'id_user' => $data['id_user'],
-            'name' => $data['name'],
-            'brand' => $data['brand'],
+        Bookings::create([
+            'id' => $data['id'],
             'purchase_date' => $data['purchase_date'],
-            'description' => $data['description'],
-            'image' => $img,
-            'status' => $data['status'],
+            'name' => $data['name'],
+            'no_hp' => $data['no_hp'],
+            'email' => $data['email'],
+            'jumlah' => $data['jumlah'],
+            'total' => $data['total'],
         ]);
 
 
-        return redirect('/list')->with('success', 'Add Car Success');
+        return redirect('/ticket')->with('success', 'Add Ticket Success');
     }
 }
+
