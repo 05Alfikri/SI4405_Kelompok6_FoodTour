@@ -21,17 +21,30 @@ class BookingController extends Controller
         $data = $request->all();
 
         Bookings::create([
-            'id' => $data['id'],
+            'id_user' => $data['id_user'],
+            'wisata' => $data['wisata'],
             'purchase_date' => $data['purchase_date'],
             'name' => $data['name'],
             'no_hp' => $data['no_hp'],
             'email' => $data['email'],
             'jumlah' => $data['jumlah'],
             'total' => $data['total'],
+            'metode_pembayaran' => $data['metode_pembayaran'],
         ]);
 
+        return redirect('/book')->with('success', 'Add Ticket Success');
+    }
 
-        return redirect('/ticket')->with('success', 'Add Ticket Success');
+    /**
+     * Show Car
+     * 
+     * @return response
+     * 
+     */
+    public function showTicket(Request $request)
+    {
+        $booking = Bookings::all();
+        return view('ticket')->with('booking', $booking);
     }
 }
 

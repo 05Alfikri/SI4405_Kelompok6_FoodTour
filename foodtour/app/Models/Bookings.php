@@ -13,18 +13,19 @@ class Bookings extends Model
     protected $table = 'bookings';
 
     protected $fillable = [
-        'id',
+        'id_user',
+        'wisata',
         'purchase_date',
         'name',
         'no_hp',
         'email',
         'jumlah',
         'total',
+        'metode_pembayaran',
     ];
 
-    // showrooms has relationship with users one to many
     public function user()
     {
-        return $this->belongsTo(User::class, 'id');
+        return $this->belongsTo(User::class,'id_user', 'id');
     }
 }

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\BookingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +27,7 @@ Route::post('/login', [UserController::class, 'loginUser'])->name('login.post');
 Route::get('/logout', [UserController::class, 'logout'])->name('logout.get');
 route::post('/logout', [UserController::class, 'logoutUser']);
 
-Route::post('pemesanan', [BookingController::class, 'pemesanan'])->name('pemesanan.post');
+Route::post('pemesanan', [BookingController::class, 'Book'])->name('pemesanan.post');
 
 
 // ==================== Website Route ====================
