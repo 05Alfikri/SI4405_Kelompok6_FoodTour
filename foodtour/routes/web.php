@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\FoodController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,11 +29,15 @@ Route::get('/logout', [UserController::class, 'logout'])->name('logout.get');
 route::post('/logout', [UserController::class, 'logoutUser']);
 
 Route::post('pemesanan', [BookingController::class, 'Book'])->name('pemesanan.post');
-
+Route::post('pemesananMakanan', [FoodController::class, 'Food'])->name('pemesananMakanan.post');
 
 // ==================== Website Route ====================
 Route::get('/', function () {
     return view('homeuser');
+});
+
+Route::get('/loginAd', function () {
+    return view('homeAdmin');
 });
 
 Route::get('/login', function () {
@@ -67,12 +72,28 @@ Route::get('/miekocok', function () {
     return view('miekocok');
 });
 
+Route::get('/batagor', function () {
+    return view('batagor');
+});
+
+Route::get('/karedok', function () {
+    return view('karedok');
+});
+
+Route::get('/nasitutug', function () {
+    return view('nasitutug');
+});
+
 Route::get('/book', function () {
     return view('pemesanan');
 });
 
 Route::get('/pemesanan', function () {
     return view('pembayaran');
+});
+
+Route::get('/pemesananMakanan', function () {
+    return view('pemesananMakanan');
 });
 
 Route::get('/ticket', function () {

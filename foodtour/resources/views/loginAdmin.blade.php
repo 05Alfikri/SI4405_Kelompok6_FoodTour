@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="text-center">
-                    <button type="submit" class="btn btn-lg" name="login" style="background-color: #4C7972; color: white; border-radius: 50px; padding: 5px 50px;">Login</button>
+                    <button type="submit" class="btn btn-lg" name="loginAd" style="background-color: #4C7972; color: white; border-radius: 50px; padding: 5px 50px;">Login</button>
                     <p class="small fw-bold">Belum punya akun?<a href="{{'register'}}" class="link-danger"> Daftar</a></p>
                 </div>
             </form>

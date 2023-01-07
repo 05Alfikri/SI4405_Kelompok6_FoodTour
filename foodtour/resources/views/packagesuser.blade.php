@@ -13,9 +13,9 @@
             <br>
             <div class="text">
                 <a href="{{ 'miekocok' }}" style="color: #915A3C; ">Mie Kocok</a>
-                <a href="#" style="color: #915A3C; ">Batagor Bandung</a>
-                <a href="#" style="color: #915A3C; ">Karedok</a>
-                <a href="#" style="color: #915A3C; ">Nasi Tutug Oncom</a>
+                <a href="{{ 'batagor' }}" style="color: #915A3C; ">Batagor Bandung</a>
+                <a href="{{ 'karedok' }}" style="color: #915A3C; ">Karedok</a>
+                <a href="{{ 'nasitutug' }}" style="color: #915A3C; ">Nasi Tutug Oncom</a>
                 <a href="#" style="color: #915A3C; ">Lotek</a>
             </div>
             <br>

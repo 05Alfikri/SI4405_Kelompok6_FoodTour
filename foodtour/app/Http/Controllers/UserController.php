@@ -103,7 +103,6 @@ class UserController extends Controller
     public function userDetail(Request $request, $id)
     {
         $user = User::find($id);
-        // dd($car);
 
         return view('profile', compact('user'));
     }

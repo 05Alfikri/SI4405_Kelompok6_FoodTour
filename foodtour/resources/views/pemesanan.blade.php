@@ -6,7 +6,7 @@
     <p style="position: absolute; width: 100px; height: 29px; left: 48.5%; top: 90px;"> Pemesanan </p>
 
     <div class="container" style="position: absolute; width: 47px; height: 47px; left: 50%; top: 140px; background: #4C7972; border-radius: 50%;"></div>
-    <p style="position: absolute; height: 47px; left: 51.5%; top: 153px; color: white;">1</p>
+    <p style="position: absolute; height: 47px; left: 51.4%; top: 153px; color: white;">1</p>
 </div>
 
 <div class="container py-5" style="margin-top: 9%;">
