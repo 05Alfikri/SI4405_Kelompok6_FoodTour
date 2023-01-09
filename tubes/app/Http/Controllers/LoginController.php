@@ -7,9 +7,8 @@ use App\Models\User;
 use Illuminate\Support\Facades\Session;
 
 
-class UserController extends Controller
+class LoginController extends Controller
 {
-    //
 
     public function index()
     {
@@ -38,7 +37,7 @@ class UserController extends Controller
 
         User::create([
             'name' => $data['name'],
-            'level' => $data['level'],
+            'role' => $data['role'],
             'no_hp' => $data['no_hp'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),

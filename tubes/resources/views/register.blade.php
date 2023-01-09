@@ -7,15 +7,14 @@
         <form action="{{ url('/register')}}" method="POST" enctype="multipart/form-data">
             @csrf
 
-
             <div class="mb-3">
                 <label class="form-label" for="name">Name lengkap</label>
                 <input type="name" id="name" class="form-control form-control-lg" name="name" required style="border-radius: 50px;" />
             </div>
 
             <div class="mb-3">
-                <label class="form-label" for="level">Level</label>
-                <input type="level" id="level" class="form-control form-control-lg" name="level" required style="border-radius: 50px;" />
+                <label class="form-label" for="role">Role</label>
+                <input type="role" id="role" class="form-control form-control-lg" name="role" required style="border-radius: 50px;" />
             </div>
 
             <div class="mb-3">
@@ -41,7 +40,7 @@
 
                 <div class="text-center">
                     <button type="submit" name="daftar" class="btn btn-lg" style="background-color: #4C7972; color: white; border-radius: 50px; padding: 5px 50px;">Registrasi</button>
-                    <p class="small fw-bold">sudah punya akun? <a href="{{ 'loginUser' }}" class="link-danger"> Login</a></p>
+                    <p class="small fw-bold">sudah punya akun? <a href="{{ 'login' }}" class="link-danger"> Login</a></p>
                 </div>
         </form>
     </div>
